@@ -5,4 +5,4 @@ Web Development Project
 Install XAMPP    
 Create a Database named 'pizza_asap' in phpMyAdmin
 Import the SQL Dumpp File in db_save/ in phpMyAdmin  
-Go to localhost/<Your Folder>/users/userlogin.php  
+Go to localhost/< Your Folder >/users/userlogin.php  

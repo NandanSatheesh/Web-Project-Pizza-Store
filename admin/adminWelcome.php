@@ -8,7 +8,7 @@
     }
 
     if(!isset($_SESSION["admin"])) {
-        header("location: ../err/error.php");
+        header("Location: ../error/error.html");
     }
 
 ?>

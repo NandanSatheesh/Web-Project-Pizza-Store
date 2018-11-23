@@ -1,5 +1,12 @@
 <?php
     
+    function error_found()
+    {
+      header("Location: ../error/error.html");
+    }
+
+    
+
     function connect() {
         $servername = "localhost";
         $username = "root";
@@ -15,6 +22,10 @@
         {
             echo "Connection to MySQL database failed: [" .$conn->connect_errno. "] - " .$conn->connect_error;
         }
+
+        set_error_handler('error_found');
+
+
 
         return $conn;
     }

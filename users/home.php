@@ -9,7 +9,7 @@
         die();
     }
 
-    require_once '../php_utils/db_connection.php'; //connessione al db
+    require_once '../php_utils/db_connection.php'; 
 
     $conn = connect();
     $query = "select * from menu where id_category=1";
